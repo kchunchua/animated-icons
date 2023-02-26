@@ -1,0 +1,62 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat:300,400,500,600,700&display=swap');
+
+body {
+	font-family: 'Montserrat', sans-serif;
+	margin: 0;
+	padding:0;
+	font-size:16px;
+}
+.wrap {
+	height: 100vh;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	margin:0 auto;
+}
+.icon-row {
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	align-items: center;
+	flex-wrap: nowrap;
+}
+.icon {
+	display: block;
+	padding:1rem;
+	width:30%;
+	height: 100%;
+}
+.btn {
+	cursor: pointer;
+}
+.title-row {
+	text-align: center;
+	margin-bottom: 3rem;
+	
+}
+h1 {
+	color: #55EFC4;
+}
+.title-row p {
+	font-weight: 300;
+
+}
+.icon-speaker, .icon-check, .icon-hamburger, .icon-book {
+	padding:1.25rem;
+}
+
+
+
+/* iPhone 5 Focus */
+@media screen and (max-width: 320px) {
+
+}
+/* Desktop */
+@media screen and (min-width: 768px) {
+	.wrap {
+		max-width: 550px !important;
+	}
+
+
+
+}
